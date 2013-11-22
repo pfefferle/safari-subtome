@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>global page</title>
+  <script type="text/javascript">
+    safari.application.addEventListener('command', function (evt) {
+      safari.application.activeBrowserWindow.activeTab.page.dispatchMessage(evt.command);
+    }, false);
+  </script>
+</head>
+<body></body>
+</html>
