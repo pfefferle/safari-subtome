@@ -9,13 +9,13 @@
 	<key>CFBundleDisplayName</key>
 	<string>SubToMe</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.superfeedr.subtome</string>
+	<string>com.subtome</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.0.1</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -64,6 +64,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://pfefferle.github.io/safari-subtome/subtome.plist</string>
 	<key>Website</key>
 	<string>https://www.subtome.com/</string>
 </dict>
